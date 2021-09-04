@@ -108,12 +108,36 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12">
                       <!-- Logo Content -->
-                      <div class="portfolio-content">                       
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">Все</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logoaz">Азербайджан</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logotr">Турция</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logokz">Казахстан</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logoua">Украина</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logoru">Россия</a>
+                          </li>
+						  <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_logoby">Беларусь</a>
+                          </li>
+                        </ul>
 
                         <!-- Logo Grid -->
                         <div class="portfolio-grid three-columns">
                           
-                        <figure class="item lbimage">
+                        <figure class="item lbimage" data-groups='["category_all", "category_logoaz"]'>
                             <div class="portfolio-item-img">
                               <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
                               <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
@@ -123,7 +147,7 @@
                             <span class="category">Азербайджан</span>
                         </figure>
 						  
-						<figure class="item lbimage">
+						<figure class="item lbimage" data-groups='["category_all", "category_logotr"]'>
                             <div class="portfolio-item-img">
                               <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
                               <a class="lightbox" title="Mockup Design 1" href="img/portfolio/full/5.jpg"></a>
@@ -133,7 +157,7 @@
                             <span class="category">Турция</span>
                         </figure>
 						  
-						<figure class="item standard">
+						<figure class="item standard" data-groups='["category_all", "category_logokz"]'>
                             <div class="portfolio-item-img">
                               <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
                               <a href="logotest.html"></a>
