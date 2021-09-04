@@ -11,7 +11,6 @@
 	-webkit-animation: moveFromLeft .6s ease both;
 	animation: moveFromLeft .6s ease both;
 }
-
 .animated-section-moveToRight {
 	-webkit-animation: moveToRight .6s ease both;
 	animation: moveToRight .6s ease both;
